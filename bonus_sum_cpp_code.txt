@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{int n,k=1,x=0;  
+cout << "nece saat ders var? ";cin>>n;
+n*=60;
+for (int i=15 ;i<n;i+=15) {
+    
+    if ((k-x)==3) {
+      x+=4;
+      cout<<i<< "-break    " ;}
+        else if (k-x==0) {
+            cout<<i<< "-lesson    " ;
+            }
+    k++;
+    
+    }
+cin>>n;
+}
